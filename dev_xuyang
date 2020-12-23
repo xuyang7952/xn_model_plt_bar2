@@ -1,1 +1,6 @@
-test dev;
+如何使push过的文件，添加到.gitignore，并生效
+1、为了防止冲突，保证现在本地仓库是最新的代码
+2、清空本地仓库缓存 git rm -r --cached   .
+3、编辑.gitignore文件，添加准备忽略的文件
+4、重新add\commit\push;git add .;git commit ; git push
+5、可以发现刚添加的忽略文件名生效；
